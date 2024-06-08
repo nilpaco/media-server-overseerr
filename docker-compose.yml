@@ -12,7 +12,6 @@ services:
     volumes:
       - ./provision/plex:/config
       - ./content/media:/data/media
-    network_mode: host
     ports:
       - "32400:32400/tcp"
       - "8324:8324/tcp"
